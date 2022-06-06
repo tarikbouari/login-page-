@@ -31,6 +31,8 @@ h2{
 }
 .control-form{
     margin-bottom: 15px;
+    position: relative;
+    
 }
 
 .control-form label{
@@ -53,7 +55,7 @@ h2{
 
     display: block;
     margin-top: -6px;
-    opacity: 0;;
+    visibility: hidden;
     
 }
 
@@ -73,4 +75,12 @@ button{
     background-color: blueviolet;
     border-radius: 4px;
     padding: 6px;
+}
+
+.control-form svg{
+    position: absolute;
+    right: 50px;
+    top:35px;
+    visibility: hidden;
+
 }
