@@ -55,6 +55,14 @@ h2{
 
     display: block;
     margin-top: -6px;
+    /* visibility: hidden; */
+    
+}
+
+.control-form small{
+
+    display: block;
+    margin-top: -6px;
     visibility: hidden;
     
 }
@@ -69,12 +77,13 @@ h2{
     left: 0;
 }
 
-button{
+.button{
     width: 100%;
     border: none;
     background-color: blueviolet;
     border-radius: 4px;
     padding: 6px;
+    height: 30px;
 }
 
 .control-form svg{

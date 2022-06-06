@@ -2,25 +2,27 @@
 
 // selection of html element // variable def 
 
-const username = document.getElementById('username');
-const email = document.getElementById('email');
-const password = document.getElementById('password');
-const passwordTwo = document.getElementById('password2');
-const submit = document.getElementById('submit');
-console.log(password);
-console.log(password);
+let username = document.getElementById('username');
+let email = document.getElementById('email');
+let password = document.getElementById('password');
+let passwordTwo = document.getElementById('password2');
+let submit = document.getElementById('submit');
 
-submit.onclick = function(){
-    // e.preventDefault();
 
-    let nameUser = username.value;
-    let mail = email.value;
-    let pass = password.value;
-    let passTwo = passwordTwo.value;
+submit.addEventListener('click', ()=>console.log("sddd"))
 
-    console.log(mail,nameUser);
-    
-};
+function check(e){
+  let variables = [];
+
+  variables.push(e.value);
+
+    return variables;
+}
+
+function clicked(){
+    console.log("s");
+    console.log(username.value);
+}
 
 
     
