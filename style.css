@@ -85,6 +85,7 @@ h2{
     padding: 6px;
     height: 30px;
     text-align: center;
+    cursor: pointer;
 }
 
 .control-form svg{
